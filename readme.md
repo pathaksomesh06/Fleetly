@@ -185,9 +185,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Somesh Pathak - [@someshpathak](https://github.com/someshpathak)
-
-Project Link: [https://github.com/someshpathak/MDMaster](https://github.com/someshpathak/MDMaster)
+Somesh Pathak - [@pathaksomesh06](https://github.com/pathaksomesh06))
 
 ---
 
