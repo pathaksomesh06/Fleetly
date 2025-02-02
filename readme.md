@@ -185,7 +185,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Somesh Pathak - [@pathaksomesh06](https://github.com/pathaksomesh06))
+Somesh Pathak - [@pathaksomesh06](https://github.com/pathaksomesh06)
 
 ---
 
