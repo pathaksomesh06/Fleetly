@@ -140,8 +140,7 @@ Required Graph API permissions:
 
 ## Current Limitations
 
-- Remote management actions limited to macOS devices
-- Beta Graph API endpoints in use
+- Remote management actions limited to macOS and iOs/iPadOS devices
 - Single active session support
 - Manual refresh required for real-time updates
 
