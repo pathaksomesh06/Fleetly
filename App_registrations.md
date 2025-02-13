@@ -17,6 +17,8 @@ Follow these steps to create the app registration:
    If you have access to multiple tenants, use the **Settings icon** in the top menu to switch to the tenant in which you want to register the application via the **Directories + subscriptions** menu.
 3. **Navigate to App Registrations**:  
    Browse to **Identity > Applications > App registrations** and select **New registration**.
+
+   **The app has to be registered as Multi-Tenant App**:
    ![Screenshot 2025-02-13 at 12 39 45](https://github.com/user-attachments/assets/593ef1f1-904b-44c1-b23b-23c3749ec2be)
 
 5. **Enter a Display Name**:  
@@ -42,6 +44,17 @@ A redirect URI is where the Microsoft identity platform sends security tokens af
 `Redirect URI` = `msauth.com.irl.MDMaster://auth`
 ![Screenshot 2025-02-13 at 12 42 20](https://github.com/user-attachments/assets/214004cd-01a0-4353-9218-66a59d1fddfd)
 
+## Add a Application ID URI
+Add the application ID URI as below:
+- Click Application ID URI from the right hand pane
+- Add App ID URI
+- Verify that application ID URI is automatatically updated 
+  ![image](https://github.com/user-attachments/assets/5677a629-2c1c-402b-b978-9a9996ba467f)
+
+<img width="1325" alt="Screenshot 2025-02-13 at 16 27 03" src="https://github.com/user-attachments/assets/d9ff32c7-3198-4e5a-885c-3e920b63dbfc" />
+<img width="1004" alt="Screenshot 2025-02-13 at 16 27 11" src="https://github.com/user-attachments/assets/f93afa91-eb5b-4b64-8989-df8f068bd261" />
+
+
 ## In the Manage section, click API permissions
 
 - Click Add a permission.
@@ -56,7 +69,10 @@ A redirect URI is where the Microsoft identity platform sends security tokens af
 
     `DeviceManagementManagedDevices.Read.All`
     `DeviceManagementManagedDevices.ReadWrite.All`
+    `DeviceManagementManagedDevices.PrivilegedOperations.All`
     `User.Read.All`
+    `Directory.Read.All`
+  
   ![Screenshot 2025-02-13 at 12 49 38](https://github.com/user-attachments/assets/b0b5a088-1810-4f00-812c-92e10198cd9f)
 
 - Navigate back to Manage & click Grant Admin Consent
