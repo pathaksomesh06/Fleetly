@@ -76,6 +76,17 @@ I
 - Intuitive navigation
 - Dark mode support
 
+## Screenshots
+![Simulator Screenshot - iPad Pro 13-inch (M4) - 2025-02-12 at 22 01 09](https://github.com/user-attachments/assets/de774094-e563-4260-a1ca-934daeff5f38)
+![Simulator Screenshot - iPad Pro 13-inch (M4) - 2025-02-12 at 22 01 12](https://github.com/user-attachments/assets/0ddd7433-d94c-4b8d-8d5c-8338248fa24a)
+![Simulator Screenshot - iPad Pro 13-inch (M4) - 2025-02-12 at 22 01 16](https://github.com/user-attachments/assets/6662d355-d9dd-4335-a056-9a7797f798fd)
+![Simulator Screenshot - iPad Pro 13-inch (M4) - 2025-02-12 at 22 01 19](https://github.com/user-attachments/assets/7e9610a1-305e-4f5f-aa3e-519d40673fcf)
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-12 at 22 03 45](https://github.com/user-attachments/assets/eacfa157-c4f2-4058-ac31-bfc5bc0705b1)
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-12 at 22 03 49](https://github.com/user-attachments/assets/92fe3ed6-0036-4261-bd02-5a854d1853fa)
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-12 at 22 03 52](https://github.com/user-attachments/assets/c6fb4c6e-5ba9-4730-9b8f-5303326d589d)
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-02-12 at 22 03 56](https://github.com/user-attachments/assets/9cefcef1-4ec9-4dc2-b633-c3021542bdf5)
+
+
 ## Requirements
 
 - iOS 15.0 or later
