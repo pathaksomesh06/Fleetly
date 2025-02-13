@@ -1,6 +1,6 @@
 # MDMaster - An Intune Management iOS Application
 
-MDMaster is a powerful iOS application designed for IT administrators to manage and monitor devices enrolled in Microsoft Intune. With an intuitive interface and comprehensive feature set, it provides seamless device management capabilities on the go.
+MDMaster v2.1.2 is a powerful iOS application designed for IT administrators to manage and monitor devices enrolled in Microsoft Intune. With an intuitive interface and comprehensive feature set, it provides seamless device management capabilities on the go.
 
 ## Table of Contents
 
@@ -21,6 +21,7 @@ MDMaster is a powerful iOS application designed for IT administrators to manage 
 - Automatic token refresh and session management
 - Secure keychain credential storage
 - SSO (Single Sign-On) capability
+- Enhanced security with biometric authentication
 
 ### Device Management
 
@@ -64,7 +65,7 @@ Currently supported for macOS:
   - Compliance status
 
 ### Modern UI/UX
-
+I
 - Built with SwiftUI
 - Platform-specific device icons
 - Visual compliance indicators
@@ -73,6 +74,7 @@ Currently supported for macOS:
 - Responsive loading states
 - User-friendly error handling
 - Intuitive navigation
+- Dark mode support
 
 ## Requirements
 
@@ -90,16 +92,18 @@ Required Graph API permissions:
 
 - `DeviceManagementManagedDevices.Read.All`
 - `DeviceManagementManagedDevices.ReadWrite.All`
-- `Directory.Read.All`
-- `Directory.ReadWrite.All`
 
-### Info.plist Configuration
+### MDM Configuration
 
+The app requires deployment through your organization's Mobile Device Management (MDM) system with the following configuration:
 ```xml
-<key>AzureADClientID</key>
-<string>YOUR_CLIENT_ID</string>
-<key>AzureADTenantID</key>
-<string>YOUR_TENANT_ID</string>
+<key>com.apple.configuration.managed</key>
+<dict>
+    <key>AzureADClientID</key>
+    <string>YOUR_CLIENT_ID</string>
+    <key>AzureADTenantID</key>
+    <string>YOUR_TENANT_ID</string>
+</dict>
 ```
 
 ## Usage
@@ -114,6 +118,7 @@ Required Graph API permissions:
 
 ### Design Pattern
 - MVVM (Model-View-ViewModel)
+- Clean Architecture principles
 
 ### UI Framework
 - SwiftUI
@@ -149,8 +154,13 @@ Required Graph API permissions:
 ### Extended Device Support
 
 - iOS/iPadOS remote management
-- Windows device actions
+- Windows device action support
 - Android device management
+- Bulk device actions
+- Configuration profiles management
+- Push notifications for device events
+- Advanced audit logging
+- Custom dashboards
 
 ### Enhanced Capabilities
 
@@ -160,15 +170,6 @@ Required Graph API permissions:
 - App deployment
 - Configuration profiles
 - Device templates
-
-### Additional Features
-
-- Offline mode
-- Push notifications
-- Advanced filtering
-- Data export
-- Audit logging
-- Custom dashboards
 
 ### Technical Improvements
 
