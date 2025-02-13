@@ -101,8 +101,6 @@ The app requires deployment through your organization's Mobile Device Management
 <dict>
     <key>AzureADClientID</key>
     <string>YOUR_CLIENT_ID</string>
-    <key>AzureADTenantID</key>
-    <string>YOUR_TENANT_ID</string>
 </dict>
 ```
 
