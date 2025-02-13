@@ -67,13 +67,13 @@ Add the application ID URI as below:
 - Select Delegated permissions as the type of permissions and below permissions
 ![Screenshot 2025-02-13 at 12 49 08](https://github.com/user-attachments/assets/f638459a-5b60-47d2-869f-73e88271364e)
 
-    `DeviceManagementManagedDevices.Read.All`
-    `DeviceManagementManagedDevices.ReadWrite.All`
-    `DeviceManagementManagedDevices.PrivilegedOperations.All`
-    `User.Read.All`
-    `Directory.Read.All`
+   - `DeviceManagementManagedDevices.Read.All`
+   - `DeviceManagementManagedDevices.ReadWrite.All`
+   - `DeviceManagementManagedDevices.PrivilegedOperations.All`
+   - `User.Read.All`
+   - `Directory.Read.All`
   
-  ![Screenshot 2025-02-13 at 12 49 38](https://github.com/user-attachments/assets/b0b5a088-1810-4f00-812c-92e10198cd9f)
+![Screenshot 2025-02-13 at 12 49 38](https://github.com/user-attachments/assets/b0b5a088-1810-4f00-812c-92e10198cd9f)
 
 - Navigate back to Manage & click Grant Admin Consent
 ![Screenshot 2025-02-13 at 12 51 55](https://github.com/user-attachments/assets/daa00dce-05f8-46d0-a605-00572cc710c8)
