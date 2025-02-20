@@ -1,6 +1,6 @@
-# MDMaster - An Intune Management iOS Application
+# Fleetly - An Intune Management iOS Application
 
-MDMaster v2.1.2 is a powerful iOS application designed for IT administrators to manage and monitor devices enrolled in Microsoft Intune. With an intuitive interface and comprehensive feature set, it provides seamless device management capabilities on the go.
+Fleetly v2.1.2 is a powerful iOS application designed for IT administrators to manage and monitor devices enrolled in Microsoft Intune. With an intuitive interface and comprehensive feature set, it provides seamless device management capabilities on the go.
 
 ## Table of Contents
 
@@ -117,7 +117,7 @@ The app requires deployment through your organization's Mobile Device Management
 
 ## Usage
 
-1. Launch MDMaster
+1. Launch Fleetly
 2. Sign in with your Azure AD credentials
 3. Select device platform (iOS, macOS, Windows, etc.)
 4. View and manage your devices
@@ -199,5 +199,5 @@ Somesh Pathak - [@pathaksomesh06](https://github.com/pathaksomesh06)
 ---
 
 Made with ❤️ by Somesh Pathak  
-© 2025 MDMaster. All rights reserved.
+© 2025 Fleetly. All rights reserved.
 
