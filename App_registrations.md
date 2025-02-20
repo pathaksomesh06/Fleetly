@@ -34,7 +34,9 @@ Follow these steps to create the app registration:
    Select **Register** to complete the initial app registration.
 9. **Review the Overview Pane**:  
    Once registration is complete, the Microsoft Entra admin center displays the app registration's **Overview** pane, which shows the **Application (client) ID** (client ID) that uniquely identifies your application.
- ![Screenshot 2025-02-13 at 12 41 44](https://github.com/user-attachments/assets/879ccddb-b6f4-408e-9161-a62c9f9f30bd)
+
+<img width="1024" alt="Screenshot 2025-02-20 at 21 36 01" src="https://github.com/user-attachments/assets/cc34264a-3b66-4557-863d-67af8b68f47b" />
+
   
 ## Add a Redirect URI
 
@@ -42,30 +44,31 @@ A redirect URI is where the Microsoft identity platform sends security tokens af
 
 `Bundle ID` = `com.irl.Fleetly`
 `Redirect URI` = `msauth.com.irl.Fleetly://auth`
-![Screenshot 2025-02-13 at 12 42 20](https://github.com/user-attachments/assets/214004cd-01a0-4353-9218-66a59d1fddfd)
+<img width="1244" alt="Screenshot 2025-02-20 at 21 37 11" src="https://github.com/user-attachments/assets/1640c54c-2847-4538-96ce-fcd974da31b4" />
+
 
 ## Add a Application ID URI
 Add the application ID URI as below:
 - Click Application ID URI from the right hand pane
 - Add App ID URI
 - Verify that application ID URI is automatatically updated 
-  ![image](https://github.com/user-attachments/assets/5677a629-2c1c-402b-b978-9a9996ba467f)
 
-<img width="1325" alt="Screenshot 2025-02-13 at 16 27 03" src="https://github.com/user-attachments/assets/d9ff32c7-3198-4e5a-885c-3e920b63dbfc" />
-<img width="1004" alt="Screenshot 2025-02-13 at 16 27 11" src="https://github.com/user-attachments/assets/f93afa91-eb5b-4b64-8989-df8f068bd261" />
+<img width="1456" alt="Screenshot 2025-02-20 at 21 37 58" src="https://github.com/user-attachments/assets/9e03f252-21d1-46d7-ab4c-514de462756b" />
 
 
 ## In the Manage section, click API permissions
 
 - Click Add a permission.
 - The Request API permissions page appears.
-  ![Screenshot 2025-02-13 at 12 46 14](https://github.com/user-attachments/assets/b4ab6199-0c02-498a-8810-e6719a1e426b)
+ <img width="991" alt="Screenshot 2025-02-20 at 21 39 32" src="https://github.com/user-attachments/assets/fca7a6d2-13b8-477b-92f8-13425936c44f" />
 
 - In the Microsoft APIs section, click Microsoft Graph.
-  ![Screenshot 2025-02-13 at 12 48 39](https://github.com/user-attachments/assets/abcbc6ab-47a3-402d-8d06-ce533338152d)
+<img width="1504" alt="Screenshot 2025-02-20 at 21 41 06" src="https://github.com/user-attachments/assets/96487a0c-55c3-46a9-92cf-4dfd5ac601f8" />
+
 
 - Select Delegated permissions as the type of permissions and below permissions
-![Screenshot 2025-02-13 at 12 49 08](https://github.com/user-attachments/assets/f638459a-5b60-47d2-869f-73e88271364e)
+<img width="1453" alt="Screenshot 2025-02-20 at 21 42 07" src="https://github.com/user-attachments/assets/e701453f-bc1a-4b1c-b885-0446bcf08963" />
+
 
    - `DeviceManagementManagedDevices.Read.All`
    - `DeviceManagementManagedDevices.ReadWrite.All`
@@ -76,7 +79,8 @@ Add the application ID URI as below:
 ![Screenshot 2025-02-13 at 12 49 38](https://github.com/user-attachments/assets/b0b5a088-1810-4f00-812c-92e10198cd9f)
 
 - Navigate back to Manage & click Grant Admin Consent
-![Screenshot 2025-02-13 at 12 51 55](https://github.com/user-attachments/assets/daa00dce-05f8-46d0-a605-00572cc710c8)
+<img width="970" alt="Screenshot 2025-02-20 at 21 43 10" src="https://github.com/user-attachments/assets/4450d6e5-584b-41ba-a66f-f3fe1af04f03" />
+
 
 # Intune Configuration
 Use app configuration policies in Microsoft Intune to provide custom configuration settings for the app so that it can read the App ID you just created in previous step.
@@ -95,9 +99,7 @@ Follow these steps to create a managed devices configuration profile:
 - Click **Select app** next to **Targeted app**.  
    The **Associated app** pane is displayed.
 - In the **Targeted app** pane, choose the **Fleetly** app to associate with the configuration policy, and click **OK**.
-  ![Screenshot 2025-02-13 at 13 00 13](https://github.com/user-attachments/assets/947935cf-2813-4e48-9705-00372976eb77)
-
-   ![Screenshot 2025-02-13 at 13 00 44](https://github.com/user-attachments/assets/968c3a3d-9d25-4722-ae93-d4a9385058af)
+  <img width="1321" alt="Screenshot 2025-02-20 at 21 44 55" src="https://github.com/user-attachments/assets/2574933b-0757-481b-85c8-12a9200aa0b2" />
 
 - Click **Next** to display the **Settings** page.
 -  In the dropdown box, select the **Configuration settings format** and choose the **Enter XML data** option.
