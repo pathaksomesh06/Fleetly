@@ -40,8 +40,8 @@ Follow these steps to create the app registration:
 
 A redirect URI is where the Microsoft identity platform sends security tokens after authentication.
 
-`Bundle ID` = `com.irl.MDMaster`
-`Redirect URI` = `msauth.com.irl.MDMaster://auth`
+`Bundle ID` = `com.irl.Fleetly`
+`Redirect URI` = `msauth.com.irl.Fleetly://auth`
 ![Screenshot 2025-02-13 at 12 42 20](https://github.com/user-attachments/assets/214004cd-01a0-4353-9218-66a59d1fddfd)
 
 ## Add a Application ID URI
@@ -94,7 +94,7 @@ Follow these steps to create a managed devices configuration profile:
 - **Select iOS/iPadOS as the Platform**.
 - Click **Select app** next to **Targeted app**.  
    The **Associated app** pane is displayed.
-- In the **Targeted app** pane, choose the **MDMaster** app to associate with the configuration policy, and click **OK**.
+- In the **Targeted app** pane, choose the **Fleetly** app to associate with the configuration policy, and click **OK**.
   ![Screenshot 2025-02-13 at 13 00 13](https://github.com/user-attachments/assets/947935cf-2813-4e48-9705-00372976eb77)
 
    ![Screenshot 2025-02-13 at 13 00 44](https://github.com/user-attachments/assets/968c3a3d-9d25-4722-ae93-d4a9385058af)
@@ -107,11 +107,11 @@ Follow these steps to create a managed devices configuration profile:
 ```xml
 <dict>
     <key>PayloadDescription</key>
-    <string>MDMaster Configuration Profile</string>
+    <string>Fleetly Configuration Profile</string>
     <key>PayloadDisplayName</key>
-    <string>MDMaster Configuration</string>
+    <string>Fleetly Configuration</string>
     <key>PayloadIdentifier</key>
-    <string>com.irl.MDMaster.config1</string>
+    <string>com.irl.Fleetly.config1</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
@@ -128,15 +128,15 @@ Follow these steps to create a managed devices configuration profile:
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.irl.MDMaster.managedapp</string>
+            <string>com.irl.Fleetly.managedapp</string>
             <key>PayloadUUID</key>
             <string>CFD75594-390E-47F7-A7E1-F992DEBFF45A</string>
             <key>PayloadEnabled</key>
             <true/>
             <key>PayloadDisplayName</key>
-            <string>MDMaster Managed App Config</string>
+            <string>Fleetly Managed App Config</string>
             <key>BundleIdentifier</key>
-            <string>com.irl.MDMaster</string>
+            <string>com.irl.Fleetly</string>
             <key>Configuration</key>
             <dict>
                 <key>AzureADClientID</key>
