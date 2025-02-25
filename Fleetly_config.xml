@@ -1,10 +1,10 @@
 <dict>
     <key>PayloadDescription</key>
-    <string>MDMaster Configuration Profile</string>
+    <string>Fleetly Configuration Profile</string>
     <key>PayloadDisplayName</key>
-    <string>MDMaster Configuration</string>
+    <string>Fleetly Configuration</string>
     <key>PayloadIdentifier</key>
-    <string>com.irl.MDMaster.config1</string>
+    <string>com.irl.Fleetly.config</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
@@ -21,15 +21,15 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.irl.MDMaster.managedapp</string>
+            <string>com.irl.Fleetly.managedapp</string>
             <key>PayloadUUID</key>
             <string>CFD75594-390E-47F7-A7E1-F992DEBFF45A</string>
             <key>PayloadEnabled</key>
             <true/>
             <key>PayloadDisplayName</key>
-            <string>MDMaster Managed App Config</string>
+            <string>Fleetly Managed App Config</string>
             <key>BundleIdentifier</key>
-            <string>com.irl.MDMaster</string>
+            <string>com.irl.Fleetly</string>
             <key>Configuration</key>
             <dict>
                 <key>AzureADClientID</key>
