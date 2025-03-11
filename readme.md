@@ -1,6 +1,6 @@
 # Fleetly - An Intune Management iOS Application
 
-Fleetly v2.1.2 is a powerful iOS application designed for IT administrators to manage and monitor devices enrolled in Microsoft Intune. With an intuitive interface and comprehensive feature set, it provides seamless device management capabilities on the go.
+Fleetly is a powerful iOS application designed for IT administrators to manage and monitor devices enrolled in Microsoft Intune. With an intuitive interface and comprehensive feature set, it provides seamless device management capabilities on the go.
 
 ## Table of Contents
 
