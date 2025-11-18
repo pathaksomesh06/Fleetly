@@ -191,7 +191,9 @@ The app requires deployment through your organization's Mobile Device Management
 
 This project is licensed under the MIT License.
 
+# Latest Release
 
+https://apps.apple.com/nl/app/fleetly/id6742232783?l=en-GB
 ## Contact
 
 Somesh Pathak - [@pathaksomesh06](https://github.com/pathaksomesh06)
